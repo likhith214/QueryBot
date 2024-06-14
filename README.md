@@ -35,5 +35,3 @@ After successfully executing the code, a new browser tab will open displaying th
 
 #### Step 5: Interact with ImarticusBot
 Your ImarticusBot is now ready to rock! Enter your query in the text box to get a response.
-
-For any further queries, feel free to reach out to [likhithpliki50@gmail.com](mailto:likhithpliki50@gmail.com).
