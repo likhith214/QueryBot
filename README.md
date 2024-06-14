@@ -1,29 +1,39 @@
-I use VScode IDE and the powershell terminal to run the code within VScode
 
-1] Install required packages
-open your Python Interpreter then type 
- 
-"pip install streamlit streamlit-chat langchain transformers googlesearch-python"
+### Setting Up and Running ImarticusBot in VSCode
 
+#### Step 1: Install Required Packages
+First, open your Python interpreter in the PowerShell terminal within VSCode and type the following command to install the necessary packages:
+```sh
+pip install streamlit streamlit-chat langchain transformers googlesearch-python
+```
 
-as we are working with API need to get api key from the huffingface to use it online 
-Step 1: sigh up to 
-"https://huggingface.co/join"
+#### Step 2: Obtain API Key from Hugging Face
+Since we are working with an API, you'll need to obtain an API key from Hugging Face. Follow these steps:
 
-Step2: tap on your profile image and select "settings" option then will get so many options on the left select "Access Tokens" 
-then tap on "new token" then name anything in name and "Role" as default to "Read" then tap on  "Generate a Token" and copy the token for future purpose.
+1. **Sign Up:**
+   - Go to [Hugging Face](https://huggingface.co/join) and sign up for an account.
 
-Then run the script with 
+2. **Generate Access Token:**
+   - Click on your profile image in the top right corner and select the "Settings" option.
+   - From the options on the left, select "Access Tokens."
+   - Click on "New Token," name your token, and set the "Role" to "Read."
+   - Click on "Generate a Token" and copy the token for future use.
 
-"streamlit run imarticusbot.py"  
+#### Step 3: Run the Script
+To run the script, use the following command in your terminal:
+```sh
+streamlit run imarticusbot.py
+```
+Check for any errors. If you encounter a dependency error, resolve it by installing the required package:
+```sh
+pip install <PackageName>
+```
+There should be no errors in the code as it runs successfully on my machine.
 
-check for error if error occurs it must be dependency error install it with "pip install Package name" 
-there's no error in code because its running in my machine.
+#### Step 4: Initialize ImarticusBot
+After successfully executing the code, a new browser tab will open displaying the bot interface. In the left sidebar, paste your Hugging Face token and press Enter.
 
-after successfull execution of code it opens the bot tab in your respective default browser in the left paste your token and press enter 
+#### Step 5: Interact with ImarticusBot
+Your ImarticusBot is now ready to rock! Enter your query in the text box to get a response.
 
-Thats it the imartibot is ready to ROCK
-
-now enter the query in the text box to get the response.
-
-for any queries replay back to likhithpliki50@gmail.com
+For any further queries, feel free to reach out to [likhithpliki50@gmail.com](mailto:likhithpliki50@gmail.com).
